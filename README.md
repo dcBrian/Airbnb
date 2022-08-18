@@ -8,12 +8,12 @@
 
 This is a Airbnb clone made with Nextjs.
 
-The main purpose of this project is to see how long it would take to implement a UI like Airbnb and its main features.
+The purpose of this project is to showcase my knowledge by reproducing the main features of Airbnb.
 <br />
 
 <p align="center">
     <br />
-      <a href="https://reddit-ebon.vercel.app/">View Demo</a>
+      <a href="https://airbnb-two-sigma.vercel.app/">View Demo</a>
     <br />
   </p>
 
