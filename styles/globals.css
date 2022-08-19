@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .icons {
+    @apply h-4 w-4 flex-shrink-0 cursor-pointer hover:text-gray-500  sm:h-6 sm:w-6;
+  }
+}
