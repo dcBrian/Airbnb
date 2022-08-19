@@ -21,7 +21,12 @@ export default function Home({ explore, live }) {
           <h2 className="pb-5 text-4xl font-semibold">Explore Nearby</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {explore?.map((e) => (
-              <SmallCard key={e.img} location={e.location} image={e.img} distance={e.distance} />
+              <SmallCard
+                key={e.img}
+                location={e.location}
+                image={e.img}
+                distance={e.distance}
+              />
             ))}
           </div>
         </section>
@@ -48,8 +53,12 @@ export default function Home({ explore, live }) {
 }
 
 export const getStaticProps = async () => {
-  const explore = await fetch("https://links.papareact.com/pyp").then((res) => res.json());
-  const live = await fetch("https://links.papareact.com/zp1").then((res) => res.json());
+  const explore = await fetch("https://links.papareact.com/pyp").then((res) =>
+    res.json()
+  );
+  const live = await fetch("https://links.papareact.com/zp1").then((res) =>
+    res.json()
+  );
   return {
     props: {
       explore,

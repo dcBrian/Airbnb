@@ -2,8 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    /* Remove Blue Overlay on mobile */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+}
+
 @layer components {
-  .icons {
-    @apply h-4 w-4 flex-shrink-0 cursor-pointer hover:text-gray-500  sm:h-6 sm:w-6;
+  .icons-md {
+    @apply h-4 w-4 flex-shrink-0 cursor-pointer sm:h-6 sm:w-6;
+  }
+  .icons-sm {
+    @apply h-4 w-4 flex-shrink-0 cursor-pointer sm:h-5 sm:w-5;
   }
 }

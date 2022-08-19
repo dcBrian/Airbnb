@@ -1,4 +1,9 @@
-import { GlobeAltIcon, MenuIcon, SearchIcon, UserCircleIcon } from "@heroicons/react/solid";
+import {
+  GlobeAltIcon,
+  MenuIcon,
+  SearchIcon,
+  UserCircleIcon,
+} from "@heroicons/react/solid";
 import Image from "next/image";
 import React from "react";
 
@@ -16,24 +21,30 @@ const Header = () => {
       </div>
 
       {/* Middle */}
-      <div className="md-shadow-sm flex items-center rounded-full py-2 shadow-md md:border-2">
+      <div className="md-shadow-sm flex items-center rounded-full border-gray-300 py-2 shadow-md hover:shadow-lg md:border">
         <input
           className="w-full bg-transparent px-5 text-sm text-gray-600 placeholder-gray-400 outline-none sm:flex-1"
           type="text"
           placeholder="Search..."
         />
-        <SearchIcon className="hidden h-8 w-8 cursor-pointer rounded-full bg-red-400 p-2 text-white hover:bg-red-300 md:mx-2 md:inline-flex" />
+        <SearchIcon className="hidden h-8 w-8 cursor-pointer rounded-full bg-red-400 p-2 text-white  md:mx-2 md:inline-flex" />
       </div>
 
       {/* Right */}
-      <div className="flex items-center justify-end space-x-4 text-gray-400">
-        <p className="ml-3 hidden cursor-pointer text-xs hover:text-gray-500 md:inline lg:text-base">
-          Become a host
-        </p>
-        <GlobeAltIcon className="icons " />
-        <div className="flex space-x-2 rounded-full border-2 p-2 hover:border-gray-400 ">
-          <MenuIcon className="icons" />
-          <UserCircleIcon className="icons" />
+      <div className="flex items-center justify-end space-x-1 text-gray-700 lg:space-x-2">
+        <button className="relative flex items-center justify-center rounded-full py-2 px-3 hover:bg-gray-100">
+          <p className="hidden cursor-pointer text-xs md:inline lg:text-base ">
+            Become a host
+          </p>
+        </button>
+
+        <button className="relative  rounded-full p-3 hover:bg-gray-100">
+          <GlobeAltIcon className="icons-sm" />
+        </button>
+
+        <div className="flex items-center space-x-2 rounded-full border border-gray-300 p-2 hover:shadow-md">
+          <MenuIcon className="icons-sm" />
+          <UserCircleIcon className="icons-md" />
         </div>
       </div>
     </header>
