@@ -17,6 +17,10 @@ The purpose of this project is to showcase my knowledge by reproducing the main 
     <br />
   </p>
 
+## About The Project
+
+![Home page 1](/images/airbnb1.png?raw=true) | ![Home page 2](/images/airbnb2.png?raw=true)
+
 ### Built With
 
 - [Next.js](https://nextjs.org/)

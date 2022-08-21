@@ -16,4 +16,7 @@
   .icons-sm {
     @apply h-4 w-4 flex-shrink-0 cursor-pointer sm:h-5 sm:w-5;
   }
+  .button {
+    @apply cursor-pointer rounded-full border px-4 py-2 transition duration-100 ease-out hover:shadow-lg active:scale-95 active:bg-gray-100;
+  }
 }
