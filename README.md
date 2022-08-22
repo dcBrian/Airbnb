@@ -5,10 +5,13 @@
 ## Done
 
 - Home Page
+- Seach Page (Data has been populated for 'London')
+- Map feature
+- Responsive
 
 This is a Airbnb clone made with Nextjs.
 
-The purpose of this project is to showcase my knowledge by reproducing the main features of Airbnb.
+The purpose of this project is to showcase my knowledge by reproducing some features of Airbnb.
 <br />
 
 <p align="center">
