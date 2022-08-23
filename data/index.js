@@ -63,7 +63,7 @@ export const searchData = [
         lat: 51.51401,
         location: 'Private room in center of ',
         long: -0.094116,
-        price: '$65 / night',
+        price: '65$/night',
         star: 4.23,
         title: 'The Blue Room',
         total: 65,
@@ -75,9 +75,24 @@ export const searchData = [
         lat: 51.521245,
         location: 'Private room in center of ',
         long: -0.109889,
-        price: '$90 / night',
+        price: '90$/night',
         star: 3.85,
         title: '5 Star Luxury Apartment',
         total: 90,
+    },
+];
+
+export const liveData = [
+    { img: 'https://links.papareact.com/2io', title: 'Outdoor getaways' },
+    { img: 'https://links.papareact.com/q7j', title: 'Unique stays' },
+    { img: 'https://links.papareact.com/s03', title: 'Entire homes' },
+    { img: 'https://links.papareact.com/8ix', title: 'Pet allowed' },
+    {
+        img: 'https://images.wallpapersden.com/image/download/cloudy-cool-hd-beach_bG5namuUmZqaraWkpJRmaWllrWZpaWU.jpg',
+        title: 'Authentic nature',
+    },
+    {
+        img: 'https://images.wallpapersden.com/image/download/hot-air-balloon_am1qbm2UmZqaraWkpJRmaWllrWZpaWU.jpg',
+        title: 'Activities',
     },
 ];

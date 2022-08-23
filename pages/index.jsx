@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import LargeCard from '../components/LargeCard';
 import MediumCard from '../components/MediumCard';
 import SmallCard from '../components/SmallCard';
+import { liveData } from '../data';
 
 export default function Home({ explore, live }) {
     return (
@@ -59,7 +60,8 @@ export default function Home({ explore, live }) {
 
 export const getStaticProps = async () => {
     const explore = await fetch('https://links.papareact.com/pyp').then((res) => res.json());
-    const live = await fetch('https://links.papareact.com/zp1').then((res) => res.json());
+    const live = liveData;
+
     return {
         props: {
             explore,

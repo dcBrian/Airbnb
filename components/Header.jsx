@@ -61,7 +61,7 @@ const Header = ({ placeholder }) => {
         <header className='sticky top-0 z-50 grid grid-cols-3 bg-white p-5 shadow-md md:px-10'>
             {/* Left */}
             <div
-                className='relative my-auto flex h-6 cursor-pointer items-center sm:h-10'
+                className='relative my-auto flex h-6 animate-bounce cursor-pointer items-center sm:h-10'
                 onClick={() => router.push('/')}
             >
                 <Image
@@ -95,7 +95,7 @@ const Header = ({ placeholder }) => {
                     </p>
                 </button>
 
-                <button className='relative rounded-full p-3 hover:bg-gray-100'>
+                <button className='relative rounded-full p-3 hover:animate-spin hover:bg-gray-100'>
                     <GlobeAltIcon className='icons-sm' />
                 </button>
 
