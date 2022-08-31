@@ -21,7 +21,9 @@
   <a href="#contact">Contact</a>
 </p>
 
-![Demo](/images/airbnb.gif?raw=true)
+<p align="center">
+  <img src="/images/airbnb.gif?raw=true"/>
+</p>
 
 <p align="center">
   <a href="https://airbnb-two-sigma.vercel.app/">View Demo</a>
