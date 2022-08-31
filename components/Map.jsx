@@ -17,7 +17,6 @@ const Map = ({ results }) => {
         latitude: center.latitude,
         zoom: 11,
     });
-    console.log(selected);
     return (
         <LibreMap
             mapLib={maplibregl}
@@ -31,7 +30,7 @@ const Map = ({ results }) => {
                 <div key={e.long}>
                     <Marker longitude={e.long} latitude={e.lat} offsetLeft={-20} offsetTop={-10}>
                         <p
-                            className='animate-bounce cursor-pointer text-2xl'
+                            className='cursor-pointer text-2xl'
                             role='img'
                             aria-label='push-pin'
                             onClick={() => setSelected(e)}
