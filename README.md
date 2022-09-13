@@ -17,12 +17,14 @@
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#credits">Credits</a> •
-  <a href="#you-may-also-like...">Related</a> •
+  <a href="#you-may-also-like">Related</a> •
   <a href="#contact">Contact</a>
 </p>
 
 <p align="center">
+  <a href="https://airbnb-two-sigma.vercel.app/">
   <img src="/images/airbnb.gif?raw=true"/>
+  </a>
 </p>
 
 <p align="center">
@@ -36,7 +38,7 @@
 * Images optimization
 * Pages
   - Landing (service presentation)
-  - Search with Map details (populated with fake data for 'London')
+  - Housing details with Map (fake data for 'London')
 
 ## How To Use
 
