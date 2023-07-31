@@ -33,12 +33,8 @@
 
 ## Key Features
 
-* Responsive layout (mobile, tablet, pc)
-* Server side Rendering
-* Images optimization
-* Pages
-  - Landing (service presentation)
-  - Housing details with Map (fake data for 'London')
+* Landing (service presentation)
+* Housing details with Map (fake data for 'London')
 
 ## How To Use
 
