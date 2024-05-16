@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h4 align="center">This is a partial Airbnb clone made with <a href="https://nextjs.org/" target="_blank">Next.js</a>.<br>The purpose of this project is to showcase my knowledge by reproducing some features of Airbnb.
+<h4 align="center">This is a partial Airbnb clone made with <a href="https://nextjs.org/" target="_blank">Next.js</a>.<br>
 </h4>
 
 <p align="center">
@@ -65,8 +65,3 @@ This software uses the following packages and services:
 ## You may also like...
 
 - [A Wordle clone](https://github.com/dcBrian/wordle)
-- [A Reddit clone](https://github.com/dcBrian/Reddit)
-
-## Contact
-
-dacruzbrian1@gmail.com
